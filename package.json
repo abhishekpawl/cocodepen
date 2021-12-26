@@ -1,0 +1,16 @@
+{
+  "name": "cocodepen",
+  "version": "1.0.0",
+  "description": "Collaborative codepen",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "author": "pawler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  }
+}

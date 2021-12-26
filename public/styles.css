@@ -1,0 +1,79 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#outer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+#head-bar {
+  width: 100%;
+  height: 6%;
+  border: 2px solid rgb(31, 17, 5);
+  background-color: rgb(55, 58, 58);
+}
+
+#head-bar button {
+  margin: 0.2%;
+  float: right;
+}
+
+#user, #status {
+  width: 30%;
+  float: left;
+}
+
+#user input {
+  margin: 1%;
+  flex-wrap: wrap;
+}
+
+#status {
+  margin: 0.4%;
+}
+
+#upper, #lower {
+  width: 100%;
+  height: 47%;
+  border: 2px solid rgb(31, 17, 5);
+  justify-content: center;
+}
+
+#upper {
+  background-color: rgb(23, 37, 37);
+}
+
+#html-div, #css-div, #js-div {
+  width: 31.33%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0 0.5px;
+  justify-content: center;
+  background-color: rgb(33, 51, 51);
+  border-radius: 1%;
+}
+
+#preview {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  text-align: center;
+  background-color: black;
+  color: rgb(43, 85, 52);
+  font-weight: bolder;
+  font-size: 20px;
+  height: 30px;
+  width: 100%;
+}
+
+.editor {
+  width: 100%;
+  height: calc(100% - 30px);
+  color: #fff;
+  overflow: auto;
+}

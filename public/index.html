@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoCodepen</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+  <div id="outer">
+    <div id="head-bar">
+      <div id="user">
+        <input type="text" id="username" placeholder="User" />
+      </div>
+      <div id="status"></div>
+      <button id="upload" class="btn btn-success btn-sm">Upload</button>
+    </div>
+    <div id="upper" class="d-flex justify-content-evenly">
+      <div id="html-div">
+        <div id="header">HTML</div>
+        <div class="editor" id="html-editor" contenteditable="true"></div>
+      </div>
+      <div id="css-div">
+        <div id="header">CSS</div>
+        <div class="editor" id="css-editor" contenteditable="true"></div>
+      </div>
+      <div id="js-div">
+        <div id="header">JS</div>
+        <div class="editor" id="js-editor" contenteditable="true"></div>
+      </div>
+    </div>
+    <div id="lower">
+      <iframe id="preview"></iframe>
+    </div>
+  </div>
+
+  <script src="./editor-app.js"></script>
+</body>
+</html>
